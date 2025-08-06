@@ -3,7 +3,7 @@ import './App.css';
 
 class App extends Component {
   render() {
-    const BASEURl=import.meta.env.BASE_URL;
+    const BASEURL=import.meta.env.BASE_URL;
     return (
       <>
         <header>
