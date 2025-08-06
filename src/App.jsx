@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-
 class App extends Component {
   render() {
-    const BASEURL=import.meta.env.BASE_URL;
+    const BASEURL = import.meta.env.BASE_URL;
     return (
       <>
         <header>
@@ -11,43 +10,43 @@ class App extends Component {
         </header>
         <section>
           <div className='card'>
-            <img src={`${BASE_URL}1.jpeg`} alt=''/>
-            <label>image 1</label>
+            <img src={`${BASE_URL}1.jpeg`} alt='' />
+            <label>Image 01</label>
           </div>
           <div className='card'>
-            <img src={`${BASE_URL}2.jpeg`} alt=''/>
-            <label>image 2</label>
+            <img src={`${BASE_URL}2.jpeg`} alt='' />
+            <label>Image 02</label>
           </div>
           <div className='card'>
-            <img src={`${BASE_URL}3.jpeg`} alt=''/>
-            <label>image 3</label>
+            <img src={`${BASE_URL}3.jpeg`} alt='' />
+            <label>Image 03</label>
           </div>
           <div className='card'>
-            <img src={`${BASE_URL}4.jpeg`} alt=''/>
-            <label>image 4</label>
+            <img src={`${BASE_URL}4.jpeg`} alt='' />
+            <label>Image 04</label>
           </div>
           <div className='card'>
-            <img src={`${BASE_URL}5.jpeg`} alt=''/>
-            <label>image 5</label>
+            <img src={`${BASE_URL}5.jpeg`} alt='' />
+            <label>Image 05</label>
           </div>
           <div className='card'>
-            <img src={`${BASE_URL}6.jpeg`} alt=''/>
-            <label>image 6</label>
-          </div>
-        <div className='card'>
-            <img src={`${BASEURL}7.jpeg} alt=''/>
-            <label>image 7</label>
+            <img src={`${BASE_URL}6.jpeg`} alt='' />
+            <label>Image 06</label>
           </div>
           <div className='card'>
-            <img src={${BASE_URL}8.jpeg`} alt=''/>
-            <label>image 8</label>
+            <img src={`${BASE_URL}7.jpeg`} alt='' />
+            <label>Image 07</label>
           </div>
           <div className='card'>
-            <img src={`${BASE_URL}9.jpeg`} alt=''/>
-            <label>image 9</label>
+            <img src={`${BASE_URL}8.jpeg`} alt='' />
+            <label>Image 08</label>
+          </div>
+          <div className='card'>
+            <img src={`${BASE_URL}9.jpeg`} alt='' />
+            <label>Image 09</label>
           </div>
         </section>
-      <footer>Copyright@2025.All Rights Reserved. </footer>
+        <footer>Copyright @ 2025. All rights reserved.</footer>
       </>
     );
   }
